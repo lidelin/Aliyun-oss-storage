@@ -1,3 +1,7 @@
+# 说明
+**此包来源于 [jacobcyl/ali-oss-storage](https://github.com/jacobcyl/Aliyun-oss-storage)**
+**由于作者不维护 pull request ，所以 fork 出来单独维护**
+
 # Aliyun-oss-storage for Laravel 5+
 Aliyun oss filesystem storage adapter for laravel 5. You can use Aliyun OSS just like laravel Storage as usual.    
 借鉴了一些优秀的代码，综合各方，同时做了更多优化，将会添加更多完善的接口和插件，打造Laravel最好的OSS Storage扩展
