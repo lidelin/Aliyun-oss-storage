@@ -153,7 +153,7 @@ class AliOssAdapter extends AbstractAdapter
             $options[OssClient::OSS_LENGTH] = Util::contentSize($contents);
         }
         if (! isset($options[OssClient::OSS_CONTENT_TYPE])) {
-            $options[OssClient::OSS_CONTENT_TYPE] = Util::guessMimeType($path, $contents);
+            $options[OssClient::OSS_CONTENT_TYPE] = Util::guessMimeType($path, '');
         }
         try {
             $this->client->putObject($this->bucket, $object, $contents, $options);
